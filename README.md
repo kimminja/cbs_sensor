@@ -47,10 +47,11 @@ function hi(){
    ![아두이노 그림](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/220px-Arduino_Uno_-_R3.jpg)
    
    
-      이름   | 번호  | 성격  |
-      ----|----|----|
-      박선욱 |  1  | 온순함 |
-      박동현 |  2  | 착함 |
-      박동준 |  3  | 건강함 |
+   
+   이름   | 번호  | 성격  |
+   ----|----|----|
+   박선욱 |  1  | 온순함 |
+   박동현 |  2  | 착함 |
+   박동준 |  3  | 건강함 |
     
    
