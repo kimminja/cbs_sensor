@@ -1,3 +1,17 @@
+# HOW Making samrt trush(feat.아두이노)
+
+## 목차
+
+### introduce the Hardware
+
+### introduce the software
+
+### Hardware drawing(그림)
+
+
+
+###codeBlock(the software)
+
 #include<Servo.h>
 
 int trig = 8;
@@ -54,3 +68,7 @@ void hahaha(){
      servo_x.write(20);
      delay(5000);
 }
+ 
+   난이도   | 유용함  | 종합 |
+       ----|----|----|
+      7 | 8 | 8  | 
