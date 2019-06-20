@@ -12,6 +12,35 @@
 
 ### Hardware drawing(그림)
 
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int top_left,top_right,bot_left,bot_right;
+  float top,bot,left,right;
+  
+  top_left=analogRead(A0);
+  top_right=analogRead(A1);
+  bot_left=analogRead(A2);
+  bot_right=analogRead(A3);
+
+  top = (top_left + top_right)/2.0;
+  bot = (bot_left + bot_right)/2.0;
+  top = (top_left + top_right)/2.0;
+  bot = (bot_left + top_right)/2.0;
+    
+  Serial.print(top_left);Serial.println(top_left); 
+  Serial.print(top_rght);Serial.println(top_rght);
+  Serial.print(bot_left);Serial.println(bot_left);
+  Serial.print(bot_right);Serial.println(bot_right);
+ 
+  
+
+}
 
 
 ###codeBlock(the software)
